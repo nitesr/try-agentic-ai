@@ -30,6 +30,3 @@ wikipedia==1.4.0
 
 # OpenAPI support for LangChain
 openapi-schema-pydantic==1.2.4
-
-# OpenAPI support for LangChain
-openapi-schema-pydantic==1.2.4
