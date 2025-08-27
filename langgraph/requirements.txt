@@ -1,0 +1,43 @@
+# LangGraph Environment Requirements
+# Core LangGraph and LangChain libraries
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-tavily>=0.2.11
+
+# Jupyter and notebook dependencies
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+
+# Data science and visualization
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# HTTP and API libraries
+requests>=2.31.0
+httpx>=0.24.0
+aiohttp>=3.8.0
+
+# Utility libraries
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.7.0
+
+# Optional but useful for AI workflows
+openai>=1.0.0
+anthropic>=0.25.0
+tiktoken>=0.5.0
+tavily-python>=0.7.11
+
+# Database and persistence
+aiosqlite>=0.20.0
+# sqlite3  # Built-in Python module (commented out as it's built-in)
+langgraph-checkpoint-sqlite>=2.0.0
